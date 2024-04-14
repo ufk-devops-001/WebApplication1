@@ -17,5 +17,5 @@ jobs:
       uses: Azure/pipelines@v1
       with:
         azure-devops-project-url:  https://dev.azure.com/Projects-Organization/IOSv1.0
-        azure-pipeline-name:  'IOSv1.0'
+        azure-pipeline-name:  'webtestapp'
         azure-devops-token:  ${{ secrets.AZURE_DEVOPS_TOKEN }}
